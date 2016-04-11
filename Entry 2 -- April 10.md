@@ -16,12 +16,6 @@ Additionally, on Monday, with the help of my critique partners, I was able to ge
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
 
 This week, I worked on two main things. First, I finalized my designs for the language features. Part of this was due to the specific decision that I talked about above, which helped me figure out exactly what I needed the language to be able to do to be useful. The rest of this process basically consisted of figuring out the most succinct way to get all of the functionality I wanted in as few commands as possible. This was a priority since again, I want the language to be accessible to total non-programmers.
 
@@ -59,6 +53,8 @@ With respect to the previous point, I basically want suggestions for syntax elem
 add build1 to carry_builds
 '''
 Other such simple statements that might be convenient to the user are what I'm looking for right now.
+
+The other thing that I have a large question about is how I should handle hero skills. There isn't any nice data about hero skills in general, as there are simply too many factors between different skills that contribute to the skills doing what they do to list all of them in a json dataset or anything similar. Thus, I need to figure out how I want to handle this. My current idea is to focus entirely on buff/debuff skills - so entirely passive skills that contribute stats to a hero. For example, anti-mage's first spell, which adds extra damage, and wraith king's two passive spells that give lifesteal and a crit. I think I would probably have to just hardcode a few of these to show that the system works, but its possible I'll be able to find a nice list of just this type of skill somewhere. In any case, once I have data, adding this won't be hard at all, but its a matter of getting the data in one way or another.
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the labor?**
